@@ -1,0 +1,31 @@
+<div>
+  <h2>Get Age by Name</h2>
+  <input type="text" [(ngModel)]="name" (input)="clearAge()">
+  <button (click)="getAge()">Get Age</button>
+  <p *ngIf="age">Age for {{name}}: {{age}}</p>
+</div>
+
+<div>
+  <h2>Get Stats</h2>
+  <button (click)="getStats()">Get Stats</button>
+  <table *ngIf="stats">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Requests</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let stat of stats">
+      <td>{{stat.name}}</td>
+      <td>{{stat.requests}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div>
+  <h2>Get Max Age</h2>
+  <button (click)="getMaxAge()">Get Max Age</button>
+  <p *ngIf="maxAge">Max age: {{maxAge}}</p>
+</div>

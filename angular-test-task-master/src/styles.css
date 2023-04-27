@@ -1,0 +1,59 @@
+/* Style for div containers */
+div {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for h2 headers */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for input fields */
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style for buttons */
+button {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #008CBA;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Style for table headers */
+th {
+  background-color: #008CBA;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table data */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Style for paragraphs */
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
